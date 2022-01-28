@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 html,
 body {
   height: 100%;
@@ -6,8 +10,18 @@ body {
 body {
   display: grid;
   place-items: center;
+}
 
-  background-color: lightblue
+main {
+  background: url(images/background.svg);
+  width: 375px;
+  height: 812px; 
+}
+
+.container {
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
