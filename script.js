@@ -13,5 +13,4 @@ function changeSocialMediaLinks() {
     li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
   }
 }
-
 changeSocialMediaLinks();
